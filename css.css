@@ -1,0 +1,173 @@
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    background-color: antiquewhite;
+   
+}
+
+.box1 ul li{
+    display: flex;
+    font-size: x-large;
+    color: rgb(93, 5, 165);
+    
+}
+.box1 ul li:hover{
+    font-size: xx-large;
+    background-color: rgba(113, 227, 238, 0.594);
+    color: rgb(93, 5, 165);
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+}
+.header-hakkimda{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(93, 5, 165);
+}
+.row{
+    display: flex;
+    padding-top: 5%;
+}
+.col1-md-6{
+    margin: 5%;
+    border: 1rem double rgba(113, 227, 238, 0.594);
+    padding: 1rem;
+    background-color: aliceblue;
+    
+    
+}
+.col2-md-6{
+    margin: 5%;
+    border: 1rem double rgba(113, 227, 238, 0.594); ;
+    padding: 1rem;
+    background-color: aliceblue;
+    
+
+}
+.col3-md-12{
+    background-color: aliceblue;
+    margin: 5%;
+    padding: 1rem;
+}
+.header-yeteneklerim{
+    display: flex;
+    justify-content: center;
+}
+.col4-md-4{
+    
+    border: 1rem double rgba(113, 227, 238, 0.594);
+    margin: 5%;
+    background-color: aliceblue;
+}
+.col5-md-4{
+    background-color: aliceblue;
+    border: 1rem double rgba(113, 227, 238, 0.594);
+    margin: 5%;
+}
+.col6-md-4{
+    border: 1rem double rgba(113, 227, 238, 0.594);
+    margin: 5%;
+    background-color: aliceblue;
+}
+.header-footer{
+    background-color: antiquewhite;
+    
+}
+.header-footer ul li{
+    list-style: none;
+    font-size: large;
+    color: rgb(93, 5, 165);
+    
+
+    
+}
+.header-footer ul{
+    font-size: x-large;
+    color: rgb(93, 5, 165);
+}
+.header-yeteneklerim img{
+    margin: auto;
+}
+ .col-md-6 ul li{
+    text-align: center;
+ }
+ .col1-md-6 img {
+    width: 100%;
+ }
+
+ footer {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+.iletisim {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color:rgb(93, 5, 165);
+  }
+
+  .sosyalmedya{
+    margin-bottom: 20px;
+  }
+  
+  .sosyalmedya a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .sosyalmedya img {
+    width: 50px;
+    
+    border-radius: 50%;
+  }
+
+  .cv {
+    font-size: 18px;
+    color: rgb(93, 5, 165);
+  }
+  
+  .cv a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(93, 5, 165);
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  @media (max-width: 767px) {
+    .sosyalmedya img {
+      width: 25px;
+      height: 25px;
+    }
+    
+    .cv a {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+
+  }
+
+  @media screen and (max-width: 1200px) {
+    .header-hakkimda .row {
+      display: flex;
+      flex-direction: column;
+    }
+    .header{
+        width: 100%;
+    }
+
+    .header-yeteneklerim .row {
+        display: flex;
+        flex-direction: column;
+    }
+  
+  }
